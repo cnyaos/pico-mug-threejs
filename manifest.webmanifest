@@ -1,0 +1,37 @@
+{
+  "name": "PICO Mug · Procedural Object Study",
+  "short_name": "PICO Mug",
+  "description": "PICO Industry Design Studio 杯子的程序化 Three.js 产品展示。",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#e8e5df",
+  "theme_color": "#e8e5df",
+  "xr_main_scene": {
+    "type": "volume",
+    "default_size": {
+      "width": "1.2m",
+      "height": "0.8m",
+      "depth": "1.6m"
+    },
+    "worldScaling": "dynamic",
+    "baseplateVisibility": "hidden"
+  },
+  "xr_spatial_scene": {
+    "default_size": {
+      "width": "1.8m",
+      "height": "1.2m",
+      "depth": "2.4m"
+    },
+    "worldAlignment": "gravityAligned",
+    "baseplateVisibility": "hidden"
+  },
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

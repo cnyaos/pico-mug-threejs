@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.gstack/
+.DS_Store
+*.log
+
+# Local sculpting review artifacts are not required by the deployed site.
+sculpt/evidence/
